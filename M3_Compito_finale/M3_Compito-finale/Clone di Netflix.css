@@ -1,0 +1,27 @@
+body, footer, .navbar {
+  background-color: #141414;
+}
+
+body {
+  margin: 10px;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-item, #carouselWatchAgain {
+  transition-property: transform;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.carousel-item div img:hover, #carouselWatchAgain div img:hover {
+  transform: scale(1.2);
+}
+
+#carouselWatchAgain{
+  scrollbar-color: #888888 #2D2D2D ;
+  scrollbar-width: thin;
+}
+
